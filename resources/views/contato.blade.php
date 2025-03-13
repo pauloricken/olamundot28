@@ -1,5 +1,5 @@
 @extends('layout.app')
-@section('title', 'Contato')
+@section('title', 'Olá Mundo::Contato')
 @section('content')
     <div>
         <h1>{{$titulo}} </h1>
@@ -11,11 +11,8 @@
         @endforeach
         </p>
         <br>
-        <ul>
-            <a href="{{url('/')}}">HOME</a></li>
-        </ul>
-    </div>
-    <did>
-        Aplicação executada em {{$script}} as {{$data}}.
-    </did>
+        <div class="mt-4 text-xs text-gray-400">
+            Aplicação executada em {{$script}} as {{$data}}.
+        </div>
+        </div>
 @endsection
