@@ -6,7 +6,7 @@
         <p>Entre em contato através dos e-mails:
         <br>
         @foreach($emails as $email)
-            <a href="mailto:{{$email}}"></a>{{$email}}
+            <a href="mailto:{{$email}}">{{$email}}</a>
         <br>
         @endforeach
         </p>
