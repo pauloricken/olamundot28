@@ -21,6 +21,8 @@
             <ul class="flex space-x-4">
                 <li><a href="{{url('/')}}" class="text-white
                     hover:text-blue-500">Home</a></li>
+                <li><a href="{{url('/sobre')}}" class="text-white
+                    hover:text-blue-500">Sobre</a></li>
                 <li><a href="{{url('/contato')}}" class="text-white
                     hover:text-blue-500">Contato</a></li>
             </ul>
