@@ -27,7 +27,7 @@ class ConsumoCombustivelController extends Controller
             $resultado = "Valores inválidos. A distância, o combustível e o valor devem ser maiores que zero.";
         } else {
             
-            $consumoPorKm = $combustivel / $distancia;
+            $consumoPorKm =    $distancia /$combustivel;  
 
             $custoTotal = $combustivel * $valorCombustivel;
 
